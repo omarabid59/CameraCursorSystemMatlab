@@ -3,8 +3,9 @@ This project is part of [this report](http://omar-abid.com/wp_portfolio/wp-conte
 
 The pipeline for hand tracking and classification is shown below.
 
-**Show pipeline**
+![Image Processing Pipeline](https://github.com/omarabid59/Hand-Gesture-and-Tracking-as-a-Mouse/blob/master/image_processing_pipeline.png)
 
-Object localization is performed using [background subtraction](https://en.wikipedia.org/wiki/Background_subtraction) and [Color Segmentation](https://en.wikipedia.org/wiki/Image_segmentation). The extracted subset of the image 
+Object localization is performed using [background subtraction](https://en.wikipedia.org/wiki/Background_subtraction) and [Color Segmentation](https://en.wikipedia.org/wiki/Image_segmentation). The extracted subset of the image using these two methods is combined together using a weighting function and the result is a binary output with an example shown below.
+![Gesture Binary Output](https://github.com/omarabid59/Hand-Gesture-and-Tracking-as-a-Mouse/blob/master/hci_project_image.png)
 
 
